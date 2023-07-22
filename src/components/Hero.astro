@@ -1,0 +1,29 @@
+---
+
+import Header from "../components/Header.astro";
+
+---
+<style>
+  .bg-stroke-img {
+    background-image: url('https://dl.dropbox.com/scl/fi/daa51szifhm1lv1gakjfd/g9698.png?rlkey=7ljpa9rqfs1fchh2l6w085epr&dl=0');
+    background-position: center center; /* Posición de la imagen en el centro */
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment:fixed;
+  }
+</style>
+<section class="w-full  bg-barbacha bg-stroke-img">
+  <Header></Header>
+  <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24 ">
+    <div class="flex w-full mx-auto text-left">
+      <div class="relative inline-flex items-center mx-auto align-middle">
+        <div class="flex flex-col justify-center items-center gap-10">
+          <img src="https://dl.dropbox.com/scl/fi/lxxv3fi9kguyxjy0x8bq8/hecos-con-amor.png?rlkey=jjo9hnab6mj5c51i2zrvbxoxn&dl=0" alt="descriptive text" width="450px"/>
+          <p class="text-gray-100 text-2xl">BARBACOA JALISIENSE</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
